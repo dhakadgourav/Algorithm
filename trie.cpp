@@ -1,8 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdbool.h>
- 
+#include <bits/stdc++.h>
+
+
 #define ARRAY_SIZE(a) sizeof(a)/sizeof(a[0])
  
 // Alphabet size (# of symbols)
@@ -23,7 +21,7 @@ struct TrieNode
 };
  
 // Returns new trie node (initialized to NULLs)
-struct TrieNode *getNode(void)
+struct TrieNode *getNode(void
 {
     struct TrieNode *pNode = NULL;
  
